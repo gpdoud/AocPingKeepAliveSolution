@@ -16,7 +16,8 @@ namespace AocPingKeepAlive {
             var parms = ParseArgs(args);
             var url = parms["--url"].ToString();
             var delay = Convert.ToInt32(parms["--delay"]);
-            await PingAlive.CallApi(url, delay);
+            var tag = parms["--tag"].ToString();
+            await PingAlive.CallApi(url, delay, tag);
         }
 
         static Dictionary<string, object> ParseArgs(string[] args) {
