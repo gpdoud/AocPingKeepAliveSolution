@@ -2,7 +2,7 @@
   "profiles": {
     "AocPingKeepAlive": {
       "commandName": "Project",
-      "commandLineArgs": "--url http://doudsystems.com/servant/api/formations/1 --delay 15 --tag Test"
+      "commandLineArgs": "--url http://doudsystems.com/servant/api/users/1 --delay 1 --tag SERVANT"
     }
   }
 }
